@@ -1,0 +1,26 @@
+==================================================
+E46 MS45.1 FLASHING PREP - FUSE REMOVAL CHECKLIST
+==================================================
+[!] CRITICAL: Roll driver's window DOWN before pulling fuses!
+[!] Connect 15A power supply to under-hood jump terminals.
+[!] Let battery surface-charge for 10-15 minutes before key-on.
+
+FUSE     AMPS   KILLS
+--------------------------------------------------
+F50      40A    Electric Radiator Fan (Prevents 20A+ emergency spike)
+F41      30A    HVAC Blower Motor (Stops climate control wake-up)
+F53      30A    Transmission Computer (Isolates auto trans CAN-bus)
+F54      20A    Fuel Pump (Stops pump priming and continuous 8A draw)
+F42      30A    Convertible Top Module (Kills vert chassis standby)
+F9       20A    Radio / Factory Audio (Cuts CarPlay display power)
+F44      20A    Radio / Amplifier (Cuts trunk amp / screen power)
+F49      5A     Body Control Module/GM5 (Kills interior lighting)
+F52      30A    Body Control Module/GM5 (Stops central locking module)
+F6       30A    Rear Window Defroster (Ensures glass heater stays off)
+--------------------------------------------------
+
+POST-FLASH REINSTALL LIST:
+[ ] Turn key to OFF.
+[ ] Reinstall all pulled fuses above.
+[ ] Cycle key to Position 2, wait for adaptations to sync, then start.
+==================================================

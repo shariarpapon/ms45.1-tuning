@@ -1,0 +1,12 @@
+Fues to pull to reduce battery load during flash, otherwise sudden awakening of components during flash cycle can drop the voltage severely low, interrupting the process and effectively bricking the DME.
+
+
+F41 (30A) - radio/nav/CD-charger/video-module
+F7  (5A)  - radio/onboard-monitor/nav/tel/gps
+F46 (20A) - possible convertible controls
+F47 (20A) - potenttialy carplay power
+F50 (40A) - HVAC blower
+F63 (7.5A) - AC Compressor relay
+F65/F70 (30A) - Power seats
+
+
